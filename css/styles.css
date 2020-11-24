@@ -1,0 +1,158 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+h3{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+p{
+  color: black;
+}
+
+.button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Nav Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* title */
+
+#title {
+  background-color: #eebb4d;
+  color: #f5f1da;
+
+}
+
+.container-fluid{
+  padding: 3% 15% 6.5%;
+}
+.phone{
+  transform: rotate(20deg);
+  width: 58%;
+  margin-left: 50px;
+  position: absolute;
+  border-radius: 40px;
+
+}
+@media (max-width: 1090px){
+  #title{
+    text-align: center;
+  }
+  .phone{
+    position: static;
+    transform: rotate(0);
+  }
+}
+.boxes{
+  padding: 5%;
+}
+
+/* features */
+
+#features{
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+position: relative;
+
+}
+
+.icons {
+  color: #96bb7c;
+  margin-bottom: 5%;
+}
+.icons:hover{
+  color: green;
+}
+
+/* testimonials */
+
+#testimonials{
+  background-color: #eebb4d;
+  text-align: center;
+  color: #f5f1da;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.test-img{
+  width: 15%;
+  border-radius: 100%;
+  padding: 3%;
+}
+
+#press{
+  background-color: #eebb4d;
+  text-align: center;
+}
+.press-logo{
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pr-col{
+  padding: 3% 2%;
+}
+.btn-color{
+  background-color: #96bb7c;
+  border-color: #96bb7c;
+}
+/* call to action, footer */
+
+#cta{
+  text-align: center;
+  font-family: 'Montserrat-Black', sans-serif;
+  color: #f5f1da;
+  background-color: #eebb4d;
+  padding: 5% 15% 7%;
+}
+#footer{
+  padding: 5% 15%;
+  text-align: center;
+}
+.ficon{
+  margin: 1.5%;
+  color: #96bb7c;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: #af2d2d;
+}
