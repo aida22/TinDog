@@ -148,11 +148,11 @@ position: relative;
 }
 .ficon{
   margin: 1.5%;
-  color: #96bb7c;
+  color: green;
 }
 a{
   color: black;
 }
 a:hover{
-  color: #af2d2d;
+  color: #96bb7c;
 }
